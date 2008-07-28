@@ -1,0 +1,5 @@
+DESCRIPTION="Xine plugin for Mozilla browsers"
+HOMEPAGE="http://xinehq.de/"
+SRC_URI="mirror://sourceforge/xine/${P}.tar.bz2"
+
+CYGCONF_ARGS="--with-plugindir=/usr/lib/mozilla/plugins"
