@@ -4,21 +4,22 @@ This is a very simple Mozilla browser plugin using the Xine
 engine to display multimedia streams.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  libX11_6-1.1.3-1
-  libxine1-1.1.14-1
+  cygwin-1.7.0-51
+  libgcc1-4.3.2-2
+  libX11_6-1.2.1-1
+  libxine1-1.1.16.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.62-1
-  automake1.10-1.10.1-1
-  binutils-20060817-1
-  cygport-0.3.12-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.2-2
-  make-3.81-1
-  pkg-config-0.23a-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
+  binutils-2.19.51-1
+  cygport-0.9.7-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-13
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -47,22 +48,18 @@ Files included in the binary package:
   /usr/lib/mozilla/plugins/xine-logo.ogg
   /usr/lib/mozilla/plugins/xineplugin.dll
   /usr/lib/mozilla/plugins/xineplugin.la
-  /usr/share/doc/xine-plugin-1.0.2/AUTHORS
-  /usr/share/doc/xine-plugin-1.0.2/COPYING
-  /usr/share/doc/xine-plugin-1.0.2/ChangeLog
-  /usr/share/doc/xine-plugin-1.0.2/INSTALL
-  /usr/share/doc/xine-plugin-1.0.2/README
-  /usr/share/doc/xine-plugin-1.0.2/TODO
+  /usr/share/doc/xine-plugin/AUTHORS
+  /usr/share/doc/xine-plugin/COPYING
+  /usr/share/doc/xine-plugin/ChangeLog
+  /usr/share/doc/xine-plugin/README
+  /usr/share/doc/xine-plugin/TODO
 
 ------------------
 
 Port Notes:
 
------ version 1.0.2-1 -----
-Version bump.
-
------ version 1.0.1-1 -----
-Initial release for Cygwin.
+----- version 1.0.2-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
