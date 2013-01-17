@@ -1,0 +1,14 @@
+NAME="xine-plugin"
+VERSION=1.0.2
+RELEASE=11
+CATEGORY="Audio Video Web"
+SUMMARY="Xine media player browser plugin"
+DESCRIPTION="This is a very simple Mozilla browser plugin using the Xine
+engine to display multimedia streams."
+HOMEPAGE="http://xinehq.de/"
+SRC_URI="mirror://sourceforge/xine/${P}.tar.bz2"
+PATCH_URI="1.0.2-no-undefined.patch"
+
+CYGCONF_ARGS="--with-plugindir=/usr/lib/mozilla/plugins"
+
+KEEP_LA_FILES="none"

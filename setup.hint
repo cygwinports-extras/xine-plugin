@@ -1,5 +1,0 @@
-category: Audio Video Web
-requires: libgcc1 libX11_6 libxine1
-sdesc: "Xine media player browser plugin"
-ldesc: "This is a very simple Mozilla browser plugin using the Xine
-engine to display multimedia streams."
